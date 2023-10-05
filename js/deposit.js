@@ -23,7 +23,7 @@ document.getElementById('btn-deposit').addEventListener('click', function () {
     const currentBalanceTotal = previousBalanceTotal + newDepositAmount;
     balanceTotalElement.innerText = currentBalanceTotal;
 
-    // step-7: clear previous value
+    // step-7: clear previous valuew2
     depositField.value = '';
 
 })
